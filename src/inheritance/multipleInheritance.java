@@ -13,7 +13,7 @@ class multipleInheritance implements printable,runnable
 {
 public void print()
 {
-	System.out.println("Hello");
+	System.out.println("Hello..hi");
 	}
 
 public static void main(String args[]){
