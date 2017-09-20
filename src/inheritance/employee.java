@@ -1,13 +1,13 @@
 package inheritance;
 
-class testInheritance {
+protected class testInheritance {
 	void salary() {
 		System.out.println("The salary is 10000");
 
 	}
 }
 
-class student extends testInheritance
+protected class student extends testInheritance
 {
 
 	void mark()
@@ -16,7 +16,7 @@ class student extends testInheritance
 	}
 
 }
-class employee
+public class employee
 
 	{
 	public static void main(String[] args)
